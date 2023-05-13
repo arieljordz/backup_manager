@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BackupSchedule Date="1/1/0001 12:00:00 AM" Time="1/1/0001 12:00:00 AM" CustomTime="1/1/0001 12:00:00 AM" IsDaily="False" IsCustom="False" CustomPath="">
+  <IsDated value="false">
+    <IsSuffixed value="false">
+      <IsDefaultNetwork value="false">
+        <IsAutoClose value="false">
+          <IsAutoRunOnStart value="false">
+            <IsScheduled value="false">
+              <IsDaily value="false">
+                <CustomPrefix value="WBS_">
+                  <Source rowID="1" selected="true" name="BACKUP_MANAGER" path="D:\MY PROJECTS\BACKUP_MANAGER" destination="D:\MY BACKUPS" />
+                  <Source rowID="2" selected="true" name="BPAS_PREMIER" path="D:\MY WORKSPACE\XERSYS\BPAS_PREMIER" destination="D:\MY BACKUPS" />
+                  <Source rowID="3" selected="true" name="PATAS ASSET" path="D:\MY WORKSPACE\XERSYS\PATAS ASSET" destination="D:\MY BACKUPS" />
+                  <Source rowID="4" selected="true" name="E_STORY" path="D:\MY PROJECTS\E_STORY\E-Story" destination="D:\MY BACKUPS" />
+                </CustomPrefix>
+              </IsDaily>
+            </IsScheduled>
+          </IsAutoRunOnStart>
+        </IsAutoClose>
+      </IsDefaultNetwork>
+    </IsSuffixed>
+  </IsDated>
+</BackupSchedule>

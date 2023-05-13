@@ -1,0 +1,67 @@
+﻿@{
+                /**/
+
+                ViewBag.Title = "BACKUP MANAGER";
+}
+
+<style>
+  
+</style>
+
+<div class="container-fluid">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-success">
+                    <h3 class="card-title">
+                        BACKUP MANAGER
+                    </h3>
+                </div>
+                <div class="card-body bg-success-light">
+                    <input type="hidden" id="row_id" />
+                    <div class="row pt-3">
+                        <div class="col-md-12">
+                            <div class="dataTable_wrapper table-responsive">
+                                <table id="tbl_backup_jobs" class="table table-bordered text-center" style="width:100%"></table>
+                            </div>
+                        </div>
+                    </div>
+
+                    @*<div class="pt-3 pb-3">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                    100%
+                                </div>
+                            </div>
+                        </div>*@
+
+                    @*<div class="pt-3 pb-3" id="div_progress_bar">
+                            <h6>Backup is in progress..</h6>
+                            <div class="progress" style="height:25px;border-top: groove;border-bottom: groove;border-left: groove;border-right: groove;">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                                </div>
+                            </div>
+                        </div>*@
+
+
+
+                    <div class="row justify-content-end p-2">
+                        @*<button type="button" onclick="add_new_task()" class="btn btn-success btn-flat">Add Task</button>*@
+                        <button type="button" onclick="start_backup()" id="btn_start_backup" class="btn btn-success btn-flat mr-2">Backup</button>
+                        <button type="button" onclick="select_all('true')" class="btn btn-primary btn-flat mr-2">Select All</button>
+                        <button type="button" onclick="select_all('false')" class="btn btn-info btn-flat mr-2">Deselect All</button>
+                        <button type="button" data-toggle="modal" data-target="#mod-add-task" class="btn btn-warning btn-flat mr-2">Add Task</button>
+                        <button type="button" data-toggle="modal" data-target="#mod-settings" class="btn btn-secondary btn-flat">Settings</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section scripts
+{
+    <script src="@Url.Content("~/Scripts/js_backup_manager.js")" type="text/javascript"></script>
+}

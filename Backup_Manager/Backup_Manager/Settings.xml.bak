@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BackupSchedule Date="1/1/0001 12:00:00 AM" Time="1/1/0001 12:00:00 AM" CustomTime="1/1/0001 12:00:00 AM" IsDaily="False" IsCustom="False" CustomPath="">
+  <IsDated value="false">
+    <IsSuffixed value="false">
+      <IsDefaultNetwork value="false">
+        <IsAutoClose value="false">
+          <IsAutoRunOnStart value="false">
+            <IsScheduled value="false">
+              <IsDaily value="false">
+                <CustomPrefix value="WBS_">
+                  <Source rowID="7" selected="true" name="BACKUP_MANAGER" path="D:\MY PROJECTS\BACKUP_MANAGER" destination="D:\MY BACKUPS" />
+                  <Source rowID="11" selected="true" name="MNHS_RegSys" path="D:\MY PROJECTS\MNHS_RegSys" destination="D:\MY BACKUPS" />
+                  <Source rowID="12" selected="false" name="D:\MY PROJECTS\MNHS_RegSys" path="D:\MY PROJECTS\MNHS_RegSys" destination="D:\MY BACKUPS" />
+                </CustomPrefix>
+              </IsDaily>
+            </IsScheduled>
+          </IsAutoRunOnStart>
+        </IsAutoClose>
+      </IsDefaultNetwork>
+    </IsSuffixed>
+  </IsDated>
+</BackupSchedule>
